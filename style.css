@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    margin-left: 10px;
+}
+h2{
+    font-size: 20px;
+}
+.yes{
+    display: flex;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar>nav>ul>li{
+    margin-right: 40px;
+}
+.yes{
+    justify-content: space-between;
+}
+.flex-box{
+    display: flex;
+}
+.first-part{
+    width: 50%;
+    margin-left: 10px;
+}
+.first-part h1{
+    font-size: 30px;
+    font-weight: 700 ;
+}
+.first-part-2 img{
+    width: 50%;
+    height: 80%;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.click{
+    color: white;
+    background-color: crimson;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: crimson;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hr-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Collection part*/
+.heading-2{
+    text-align: center;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: none;
+    grid-row-gap: 20px;
+    
+    
+    
+}
+.item{
+    
+    margin-left: 20px;
+    padding-left: 25px;
+    box-shadow: 0px 5px 5px lightslategrey;
+}
+
+.item .photo-banner img{
+    width: 80%;
+    height: 60%;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: gold;
+}
+.fa-star.empty{
+    color: #aeaeae ;
+}
+.products-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-part{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(6, 6, 77);
+    color: white;
+}
+nav>li{
+    list-style: none;
+    margin: 10px;
+}
+/*Responsive part*/
+
+@media only screen and (max-width:688px) {
+    .collection{
+        width: 100%;
+    }
+    .assignment-2{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
