@@ -47,6 +47,7 @@ nav>ul{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .hr-img{
     display: flex;
     justify-content: space-around;
@@ -91,6 +92,14 @@ nav>ul{
     align-items: center;
     justify-content: space-between;
 }
+
+.click-2{
+    display: flex;
+    justify-content: flex-end;
+    color: crimson;
+    text-decoration: none;
+}
+/*footer part*/
 .footer-part{
     margin-top: 50px;
     text-align: center;
