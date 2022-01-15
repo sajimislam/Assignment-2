@@ -62,10 +62,7 @@ nav>ul{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: none;
-    grid-row-gap: 20px;
-    
-    
-    
+    grid-row-gap: 20px;  
 }
 .item{
     
@@ -93,11 +90,12 @@ nav>ul{
     justify-content: space-between;
 }
 
-.click-2{
+.button > a{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     color: crimson;
     text-decoration: none;
+    margin-left: 750px;
 }
 /*footer part*/
 .footer-part{
